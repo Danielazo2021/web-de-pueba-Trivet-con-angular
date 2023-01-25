@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Pag-Trivet';
+  public title:string = 'Pag-Trivet';
+  constructor(){
+
+  }
+  
+
+  
 }

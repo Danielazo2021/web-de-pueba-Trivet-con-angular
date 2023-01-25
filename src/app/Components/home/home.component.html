@@ -1,0 +1,22 @@
+<br><br>
+<label *ngIf="!identificado"> Ingrese su nombre por favor</label>
+<input  *ngIf="!identificado"  type="string" [(ngModel)]="visitante">
+
+<br>
+
+<ng-template #identificadoOk >
+    <div class="Identificado">
+    <h3 class="Identificado"> Estas identificado en la aplicacion!</h3>
+    <br>
+    <button class="Identificado" (click)="incognito()">Cerrar sesion</button>
+</div>
+</ng-template>
+
+<ng-template #noIdentificado>
+<p>No estas identificado, pulsa este boton para identificarte</p>
+<button (click)="setIdentificado()">Identificarme</button>
+</ng-template>
+
+<div *ngIf="identificado;then identificadoOk else noIdentificado"></div>
+
+<div   class="Identificado"   *ngIf="identificado"> <h2>Bienvenido {{usuario}}, esperamos que disfrutes tu navegacion por la página</h2></div>

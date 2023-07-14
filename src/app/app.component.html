@@ -1,26 +1,30 @@
+<div class="container-fluid">
 
-  
-<div class="content">
-<p>
-<img src="../assets/images/logo ok.png">
-</p>
+  <div class="container my-3 mt-5">
+    <div class="row">
+      
+      <div class="col-9 text-center">
+        <h2 class="float-left" >TRIVET - Agroveterinaria <small style="color:grey">(No oficial)</small></h2>
+      </div>
 
-  <H1>TRIVET - Agroveterinaria</H1>
-   
+      <div class="col-3">
+        <img src="../assets/images/logo ok.png" class="float-right" width="25%">
+      </div>
 
+    </div>
   </div>
   
 
-  <nav class="nav" >
-    <a [routerLink]="['home']" [routerLinkActive]="['active']">Home</a>
+  <nav class="navbar my-3" style="background-color: #e3f2fd; border-radius: 30%; " >
+    <a [routerLink]="['home']" [routerLinkActive]="['active']" class="mx-5">Home</a>
     &nbsp;
-    <a [routerLink]="['presentacion']" [routerLinkActive]="['active']">Presentacion</a>
+    <a [routerLink]="['presentacion']" [routerLinkActive]="['active']" class="mx-3">Presentacion</a>
     &nbsp;     
-    <a [routerLink]="['productos']" [routerLinkActive]="['active']">Productos</a>
+    <a [routerLink]="['productos']" [routerLinkActive]="['active']" class="mx-3">Productos</a>
     &nbsp;
-    <a [routerLink]="['galeria']" [routerLinkActive]="['active']">Galeria</a>
+    <a [routerLink]="['galeria']" [routerLinkActive]="['active']" class="mx-3">Galeria</a>
     &nbsp;
-    <a [routerLink]="['contacto']" [routerLinkActive]="['active']">Contacto</a>
+    <a [routerLink]="['contacto']" [routerLinkActive]="['active']" class="mx-3">Contacto</a>
     &nbsp;
   </nav>
 
@@ -30,16 +34,17 @@
   
   <br>
   <br>
-  <div id="prueba-block">
-      <div class="final">
-        <div class="columna">
+  <div class="container my-5">
+      
+      <div class="row">
+        <div class="col-4">
           <h3>Info útil</h3>
               <p><a href="#">Términos y condiciones</a>&nbsp;</p>
               <p><a href="#">Politicas de privacidad</a>&nbsp;</p>
               <p><a href="#">Preguntas frecuentes</a>&nbsp;</p>
         </div>
 
-        <div class="columna">
+        <div class="col-4">
           <h3>Contáctanos</h3>
               <p> ✆  03543 65-3302</p>    
               <p> ✉ trivet@trivet.com</p>    
@@ -47,20 +52,25 @@
         </div>
 
  
-      <div class="columna">
+      <div class="col-4">
         <h3>Sigamos conectados</h3>
           <p>
-          <img src="../assets/images/facebook.png"> facebook_trivet
+          <img src="../assets/images/facebook.png" width="10%"> facebook_trivet
           </p>
           <p>
-            <img src="../assets/images/instagram.png"> instagram_trivet
+            <img src="../assets/images/instagram.png" width="10%"> instagram_trivet
           </p>
 
       </div>
-    </div>
+    
+  </div>
+
+
+
 </div>
 
-<footer class="footer">
-  todos los derechos reservados Daniel Grecco &#169; 2023 
+
+<footer class="footer fixed-bottom">
+  <p style="background-color: black;"><b> Todos los derechos reservados Daniel Grecco &#169; 2023</b></p> 
 </footer>
 

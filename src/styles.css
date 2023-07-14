@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(153deg, rgba(2,0,36,0.48783263305322133) 0%, rgba(9,121,95,0.6727065826330532) 3%, rgba(7,136,136,0.8463760504201681) 15%, rgba(4,151,179,0.7707457983193278) 30%, rgba(1,169,232,1) 68%, rgba(0,177,255,1) 79%);
+    /*asi usamos un gradiante en el body, va de un color a otro con una transicion
+  //  background: #1E9600;  /* fallback for old browsers */
+   /* background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+   /* background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/*    background: linear-gradient(rgba(0,0,0,0.3), rgba( 0,0,0,0.3)), url('./assets/fondo.jpg');*/
+   /* background-image: url('./assets/fondo.jpg');*/
+ /*   background-repeat:  no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    height: 100vh;*/
+
+    }
